@@ -1,7 +1,13 @@
 {
   "name": "ember-cli-pdf-object",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Adds PDFObject component to your Ember app. It is designed to work well with the way we build Ember apps, and follows idiomatic patterns.",
+  "homepage": "http://ziyadalobaidi.com/demos/ember-pdf-object",
+  "repository" :
+    {
+      "type" : "git",
+      "url" : "https://github.com/alobaidizt/ember-pdf-object.git"
+    },
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -23,7 +29,6 @@
     "ember-cli": "2.8.0",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-dependency-checker": "^1.2.0",
-    "ember-cli-htmlbars": "^1.0.3",
     "ember-cli-htmlbars-inline-precompile": "^0.3.1",
     "ember-cli-inject-live-reload": "^1.4.0",
     "ember-cli-jshint": "^1.0.0",
@@ -41,12 +46,21 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "pdf-object",
+    "pdf",
+    "pdf object",
+    "ember",
+    "addon",
+    "pdfobject"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "ember-cli-babel": "^5.1.6",
+    "ember-cli-htmlbars": "^1.1.1"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+
+    "demoURL": "http://ziyadalobaidi.com/demos/ember-pdf-object"
   }
 }
