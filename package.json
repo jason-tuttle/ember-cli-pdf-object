@@ -1,12 +1,9 @@
 {
   "name": "ember-cli-pdf-object",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adds PDFObject component to your Ember app. It is designed to work well with the way we build Ember apps, and follows idiomatic patterns.",
   "homepage": "http://ziyadalobaidi.com/demos/ember-pdf-object",
-  "repository" : {
-    "type": "git",
-    "url":  "https://github.com/alobaidizt/ember-pdf-object.git"
-  },
+  "repository": "",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -16,7 +13,6 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -62,7 +58,6 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
-
     "demoURL": "http://ziyadalobaidi.com/demos/ember-pdf-object"
   }
 }
